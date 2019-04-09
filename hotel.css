@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    background-color: white;
+}
+body{
+    margin: auto;
+    margin-top: 50px;
+    width: 1200px;
+    height: 760px;
+    background-color: lightgreen;
+}
