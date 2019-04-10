@@ -37,7 +37,7 @@ function listar(){
     for (let i = 0; i < productos.length; i++) {
         const element = productos[i];
         contenido = contenido + '<tr><td>' + (i+1) + '</td><td>' + element.name + '</td><td>' + element.price + 
-        '</td><td>' + element.nombre + '</td><td>' + element.fecha + '</td><td>';
+        '</td><td>' + element.nombre + '</td><td>' + element.fecha   + '</td><td>';
     }
     console.log(suma);
     let igv = suma*0.18;
