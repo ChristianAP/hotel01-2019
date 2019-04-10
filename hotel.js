@@ -29,30 +29,10 @@ function enviar() {
     document.getElementById("numero").value = "";
     document.getElementById("ubicacion").value = "";
     document.getElementById("fecha").value = "";
+    document.getElementById("nombre").value = "";
+    document.getElementById("dni").value = "";
+    document.getElementById("tipo").value = "";
+    document.getElementById("personas").value = "";
+
     
-}
-
-function listar(){
-    let contenido = '';
-    for (let i = 0; i < productos.length; i++) {
-        const element = productos[i];
-        contenido = contenido + '<tr><td>' + (i+1) + '</td><td>' + element.name + '</td><td>' + element.price + 
-        '</td><td>' + element.nombre + '</td><td>' + element.fecha   + '</td><td>';
-    }
-    console.log(suma);
-    let igv = suma*0.18;
-    let total = suma + igv;
-    document.getElementsByTagName('tbody')[0].innerHTML = contenido;
-    document.getElementById('total_sub').value = suma;
-    document.getElementById('igv').value = igv;
-    document.getElementById('total').value = total;
-    let data = document.getElementsByTagName("td");
-    alinear_tdata(data);
-}
-
-function alinear_tdata(data){
-    for (let i = 0; i < data.length; i++) {
-        const element = data[i];
-        element.classList.add('dato');
-    }
 }
