@@ -12,17 +12,17 @@
         <center><h1>HOTEL SYSTEM</h1></center>
         <br>
         <label for="" class="label"> N°: </label>
-        <input id="n" type="text"> &nbsp
+        <input type="text" class="input" id="numero"> &nbsp
         <label for="" class="label"> Ubicación: </label> 
-        <input type="text">&nbsp
+        <input type="text" class="input" id="ubicacion">&nbsp
         <label for="" class="label"> FECHA: </label> 
-        <input type="date">
+        <input type="date" class="input" id="fecha">
         <br>
         <br>
         <label for="" class="label"> CLIENTE: </label> 
-        <input id="nombre" type="text">
+        <input id="nombre" type="text" class="input" >
         <label for="" class="label"> DNI: </label> 
-        <input id="dni" type="text">
+        <input id="dni" type="text" class="input" >
         <p>___________________________________________________________________________</p>
         <br>
         <label for="" class="label"> TIPO: </label> 
@@ -36,11 +36,11 @@
             <option value="suite_nupcial">Suite Nupcial</option>
         </select>
         <label for="" class="label"> N° PERSONAS: </label> 
-        <input id="npersonas" type="text">
+        <input  type="text" class="input" id="personas">
         <br>
         <br>
         <button id="reset">RESET</button>
-        <button id="guardar">GUARDAR</button>
+        <button id="guardar" onclick="enviar()">GUARDAR</button>
     </header>
     <aside id="n1">
         <center><h1>DATOS CLIENTE</h1></center>
