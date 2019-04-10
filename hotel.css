@@ -10,5 +10,76 @@ body{
     margin-top: 50px;
     width: 1200px;
     height: 760px;
-    background-color: lightgreen;
+}
+header{
+    float: left;
+    margin: 40px;
+    width: 600px;
+    height: 270px;
+    background-color: red;
+}
+input#n{
+    width: 40px;
+    height: 20px;
+}
+input#nombre{
+    width: 270px;
+    height: 20px;
+}
+input#dni{
+    width: 170px;
+    height: 20px;
+}
+select#tipo{
+    width: 170px;
+    height: 20px;
+}
+input#npersonas{
+    width: 70px;
+    height: 20px;
+}
+button#reset{
+    margin: 4px;
+    float: right;
+    width: 140px;
+    height: 30px;
+}
+button#guardar{
+    margin: 4px;
+    float: right;
+    width: 140px;
+    height: 30px;
+}
+aside#n1{
+    padding: 5px;
+    float: right;
+    width: 510px;
+    height: 150px;
+    background-color: red;
+    text-align: left;
+}
+#tabla_datos {
+    margin: -20px;
+    margin-top: -20px;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 48px;
+    border-color: grey;
+}
+aside#n2{
+    margin-top: 10px;
+    padding: 5px;
+    float: right;
+    width: 510px;
+    height: 150px;
+    background-color: red;
+    text-align: left;
+}
+#tabla_habitacion {
+    margin: -20px;
+    margin-top: -20px;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 40px;
+    border-color: grey;
 }

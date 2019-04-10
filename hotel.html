@@ -12,12 +12,58 @@
         <center><h1>HOTEL SYSTEM</h1></center>
         <br>
         <label for="" class="label"> N°: </label>
-        <input type="text"> &nbsp
+        <input id="n" type="text"> &nbsp
         <label for="" class="label"> Ubicación: </label> 
         <input type="text">&nbsp
         <label for="" class="label"> FECHA: </label> 
         <input type="date">
-
+        <br>
+        <br>
+        <label for="" class="label"> CLIENTE: </label> 
+        <input id="nombre" type="text">
+        <label for="" class="label"> DNI: </label> 
+        <input id="dni" type="text">
+        <p>___________________________________________________________________________</p>
+        <br>
+        <label for="" class="label"> TIPO: </label> 
+        <select name="tipo" id="tipo">
+            <option value="individual">Individual</option>
+            <option value="doble personal">Doble personal</option>
+            <option value="doble">Doble</option>
+            <option value="triple">Triple</option>
+            <option value="junior_suite">Junior Suite</option>
+            <option value="suite">Suite</option>
+            <option value="suite_nupcial">Suite Nupcial</option>
+        </select>
+        <label for="" class="label"> N° PERSONAS: </label> 
+        <input id="npersonas" type="text">
+        <br>
+        <br>
+        <button id="reset">RESET</button>
+        <button id="guardar">GUARDAR</button>
     </header>
+    <aside id="n1">
+        <center><h1>DATOS CLIENTE</h1></center>
+        <table id="tabla_datos">
+            <tr>
+                <th> N° </th>
+                <th> NOMBRE </th>
+                <th> DNI </th>
+                <th> FECHA </th>    
+                <th> UBICACION </th>
+            </tr>
+        </table>
+    </aside>
+    <aside id="n2">
+        <table id="tabla_habitacion">
+            <tr>
+                <th> N° </th>
+                <th> HABITACIÓN </th>
+                <th> COSTO </th>
+                <th> CALIDAD </th>    
+                <th> ACTION</th>
+            </tr>
+        </table>
+    </aside>
 </body>
 </html>
