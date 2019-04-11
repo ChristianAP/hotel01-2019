@@ -31,39 +31,41 @@
             <option value="individual">Individual</option>
             <option value="doble personal">Doble personal</option>
             <option value="doble">Doble</option>
-            <option value="triple">Triple</option>
-            <option value="junior_suite">Junior Suite</option>
-            <option value="suite">Suite</option>
-            <option value="suite_nupcial">Suite Nupcial</option>
         </select>
         <label for="" class="label"> N° PERSONAS: </label> 
         <input  type="text" class="input" id="personas">
         <br>
         <br>
-        <button id="reset">RESET</button>
+        <button id="reset" onclick="reset()">RESET</button>
         <button id="guardar" onclick="enviar()">GUARDAR</button>
     </header>
     <aside id="n1">
         <center><h1>DATOS CLIENTE</h1></center>
         <table id="tabla_datos" border="1" >
-            <tr>
+            <thead>
                 <th> N° </th>
                 <th> NOMBRE </th>
                 <th> DNI </th>
-                <th> FECHA </th>    
+                <th> FECHA </th>        
                 <th> UBICACION </th>
-            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
         </table>
     </aside>
     <aside id="n2">
         <table id="tabla_habitacion" border="1">
-            <tr>
+            <thead>
                 <th> N° </th>
                 <th> HABITACIÓN </th>
                 <th> COSTO </th>
                 <th> CALIDAD </th>    
                 <th> ACTION</th>
-            </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
         </table>
     </aside>
 </body>
