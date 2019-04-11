@@ -8,7 +8,7 @@ html{
 body{
     margin: auto;
     margin-top: 50px;
-    width: 1200px;
+    width: 1300px;
     height: 760px;
 }
 header{
@@ -50,33 +50,31 @@ button#guardar{
     height: 30px;
 }
 aside#n1{
-    padding: 5px;
     float: right;
-    width: 510px;
+    width: 550px;
     height: 150px;
     text-align: left;
 }
 #tabla_datos {
-    margin: -20px;
-    margin-top: -20px;
+    margin-top: 15px;
+    width: 590px;
+    height: 50px;
     display: table;
     border-collapse: separate;
-    border-spacing: 48px;
     border-color: grey;
 }
 aside#n2{
     margin-top: 10px;
-    padding: 5px;
     float: right;
-    width: 510px;
+    width: 550px;
     height: 150px;
     text-align: left;
 }
 #tabla_habitacion {
-    margin: -20px;
-    margin-top: -20px;
+    width: 550px;
+    height: 50px;
     display: table;
     border-collapse: separate;
-    border-spacing: 40px;
     border-color: grey;
+    
 }
